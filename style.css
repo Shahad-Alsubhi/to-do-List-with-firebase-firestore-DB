@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.8;
+}
+
+body {
+  background-color: #dde7f2;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #504f4f;
+}
+.container {
+  padding: 25px;
+  background-color: rgb(252, 252, 252);
+  max-width: 350px;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  box-shadow: 2px 3px 8px #edeef0;
+  transform: translate(-50%, 0%);
+}
+
+#add-task {
+  border-radius: 30px;
+  width: 60px;
+  height: 35px;
+  border: none;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 800;
+  background-color: #4e5abd;
+}
+#task-name {
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  height: 20px;
+  padding: 8px 15px;
+  width: 70%;
+  background-color: #edeef0;
+}
+
+.task {
+  font-size: 17px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 5px;
+  color: #504f4f;
+}
+
+.fa-regular {
+  font-size: 18px;
+  color: #4e5abd;
+}
+
+.fa-solid.fa-xmark , .fa-regular.fa-pen-to-square {
+  color: rgb(195, 193, 193);
+  font-size: 16px;
+}
+
+.mainpulate {
+  
+  position: absolute;
+  right: 15px;
+}
+.delete , .edit ,.deletemult,.selectmult{
+    border: none;
+  cursor: pointer;
+    background-color: rgb(252, 252, 252);
+
+
+}
+
+.checkbox {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(252, 252, 252);
+}
+
+.task-text-style {
+  text-decoration: line-through;
+  color: rgb(195, 193, 193);
+}
+.All{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.deleteAll, .selectAll, .select ,.deselect{
+    color: #504f4f;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 25px;
+    background-color: #dde7f2;
+
+}
+
+.hidden{
+    display: none;
+}
+.visible{
+    display: flex;
+}
+.options{
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.fa-solid.fa-trash-can , .fa-solid.fa-check{
+    font-size: 18px;
+  color: #4e5abd;
+  
+}
+.comletedTaskStily{
+  text-decoration: line-through;
+}

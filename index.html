@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/0caf6eb3fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script type="module" src="firebaseConfig.js"></script>
+
+    <div class="container">
+      <h2>To-Do List</h2>
+      <input type="text" required placeholder="Add your task" id="task-name" />
+      <button type="button" id="add-task">Add</button>
+      <div class="All">
+        <button class="deleteAll">Delete All</button>
+        <button class="selectAll">Select All</button>
+        <button class="select">Multi Select</button>
+      </div>
+      <div class="task-container"></div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
